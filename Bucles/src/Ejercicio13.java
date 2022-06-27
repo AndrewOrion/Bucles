@@ -12,6 +12,7 @@ public class Ejercicio13 {
 		System.out.println("--------------");
 		int sum=0;
 		int primo=0;
+		
 		for (int i=num;i>0;i--) {
 			if (num%i==0){
 			System.out.println(i);

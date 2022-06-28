@@ -9,8 +9,8 @@ public class Ejercicio9 {
 		int i=10,j=10;
 	
 		for (i=10;i>=1;i--) {
-			System.out.println("TABLA DEL "+i);
-			System.out.println("-------------");
+			System.out.println("___________");
+			System.out.println("TABLA DEL "+i+"|");
 
 			for (j=10;j>=1;j--) {
 				System.out.println(i+" x "+j+" = "+i*j);

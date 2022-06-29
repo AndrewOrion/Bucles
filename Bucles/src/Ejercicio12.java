@@ -19,6 +19,7 @@ public class Ejercicio12 {
 			}
 		}
 		System.out.println("La suma de sus divisores es: "+sum);
+		System.out.println("_____________");
 		if (sum==num)System.out.println("Es perfecto");
 		else System.out.println("No es perfecto");
 	}

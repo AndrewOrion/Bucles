@@ -14,12 +14,13 @@ public class b8 {
 			System.out.println("Introduce número 2 (4 cifras):");
 			int num2=teclado.nextInt();
 			int a;
+			
 			num1=num1%1000;
 			num2=num2%1000;
 			
 			int temporal1=num1;
 			int temporal2=num2;
-			
+		
 			while(num1 > 0 && num2 > 0) {	
 				if (num1!=temporal1 && num2!=temporal2) {
 					res1 = res1 + num1 % 10;

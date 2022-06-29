@@ -18,11 +18,11 @@ public class Ejercicio14 {
 
         while ( resto >= divisor )
         {
-            resto = resto-divisor;
+            resto = resto-divisor;// resto el divisor porque voy repartiendo de ese num en ese num
             cociente++;
         }
 
-        System.out.printf( "\n   %d |___ %d = %d (Resto = %d)", dividendo, divisor, cociente, resto );
+        System.out.printf( "\n   %d |___%d = %d (Resto = %d)", dividendo, divisor, cociente, resto );
     
 	}
 
